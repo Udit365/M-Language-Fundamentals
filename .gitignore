@@ -286,3 +286,25 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+#Ignoring Office365 related files
+
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd* 
